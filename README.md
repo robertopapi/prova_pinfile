@@ -1,2 +1,2 @@
 # prova_pinfile
- test of cordova plugin cordova-plugin-file
+ simple test of cordova plugin cordova-plugin-file
