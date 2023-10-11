@@ -8,7 +8,7 @@
  <content src="index.html" />
  <allow-intent href="http://*/*" />
  <allow-intent href="https://*/*" />
- <!-- for remove splashscreen ... but don't run -->
+ <!-- for remove splashscreen ... but don't run  -->
  <platform name="android">
   <preference name="AutoHideSplashScreen" value="true" />
   <preference name="SplashScreenDelay" value="0"/>
