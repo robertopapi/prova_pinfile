@@ -1,6 +1,5 @@
 var subdirectory = "files";
 var filename = "prova_pinfile.txt";
-
 ////////////////////////////////////////////////////////
 /*
  * appdebug()
