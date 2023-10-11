@@ -1,5 +1,6 @@
 var subdirectory = "files";
 var filename = "prova_pinfile.txt";
+
 ////////////////////////////////////////////////////////
 /*
  * appdebug()
@@ -198,10 +199,10 @@ function readFile()
       { create: false, exclusive: false },
       function (fileEntry) // onsuccess getFile
       {
-       console.log("fileEntry is file?" + fileEntry.isFile.toString());
-       appdebug("fileEntry is file?" + fileEntry.isFile.toString());
-       appdebug("fileEntry.name " + fileEntry.name.toString());
-       appdebug("fileEntry.fullPath " + fileEntry.fullPath.toString());
+       console.log("readFile() fileEntry is file?" + fileEntry.isFile.toString());
+       appdebug("readFile() fileEntry is file?" + fileEntry.isFile.toString());
+       appdebug("readFile() fileEntry.name " + fileEntry.name.toString());
+       appdebug("readFile() fileEntry.fullPath " + fileEntry.fullPath.toString());
        //readFile(fileEntry);
        fileEntry.file
        (
@@ -223,7 +224,7 @@ function readFile()
       },
       function (error) // onerror getFile
       {
-       appdebug("ERROR - createFile().getFile - errorcode="+error.code);
+       appdebug("ERROR - readFile().getFile - errorcode="+error.code);
       }
      );
     },

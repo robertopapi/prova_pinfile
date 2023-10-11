@@ -27,7 +27,5 @@ function onDeviceReady() {
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
     console.log(cordova.file);
-    
-    // show the object on the app debug log
     appdebug(cordova.file);
 }
